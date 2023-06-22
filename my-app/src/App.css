@@ -1,0 +1,30 @@
+.app-wrapper {
+  display: grid;
+
+  grid-template-areas: 
+  "head head head"
+  "nav cont cont";
+  grid-template-rows: 1fr 8fr;
+  grid-template-columns: 0.5fr 2fr;
+}
+
+.header {
+  grid-area: head;
+  background-color: goldenrod;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: yellowgreen;
+
+}
+
+.content {
+  grid-area: cont;
+  background-color: yellow;
+
+}
+
+.header img {
+  width: 60px;
+}
